@@ -16,3 +16,5 @@ Criar o esquema conceitual para o contexto de oficina com base na narrativa forn
 * Cada OS possui número, data de emissão, um valor, status e uma data para conclusão dos trabalhos.
 
 ## Interpretações:
+* Os Clientes serão uma **Entidade** que possuem o **Relacionamento de Possuir** uma ou mais **Entidade Veículo**
+
