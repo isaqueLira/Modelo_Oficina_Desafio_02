@@ -17,4 +17,8 @@ Criar o esquema conceitual para o contexto de oficina com base na narrativa forn
 
 ## Interpretações:
 * Os Clientes serão uma **Entidade** que possuem o **Relacionamento de Possuir** uma ou mais **Entidade Veículo**
+* O Veículo (que terá o código do seu Poossuídor) solicitará uma OS descrevendo o Motivo (Nessa etapa será possível filtrar se será conserto ou revisões períodicas) que será um atributo da OS inicial
+* A OS inicial será preenchida pela Equipe que possuem Mecânicos
+* A OS de Execução será o resultado da OS inicial com a adição dos Serviços e/ou Peças
+* A OS de Execução deverá ser Aprovada pelo Cliente, e a aprovação ficará no atributo Status (que poderá ser: Aguardando Aprovação, Aprovado e Encaminhado para Execução, em Execução, Finalizado, Cancelado, Reprovado)
 
